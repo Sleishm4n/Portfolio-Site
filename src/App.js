@@ -1,12 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import AboutMe from './components/AboutMe';
+import Cv from './components/Cv';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
-      <h1>Hello, I'm Sam </h1>
-      <p>This is my first React portfolio site.</p>
-    </div>
+    <><Header />
+    <br />
+    <AboutMe />
+    <br />
+    <Cv />
+    <br />
+    <Projects />
+    <br />
+    <Footer /></>
   );
 }
 
