@@ -9,13 +9,16 @@ function App() {
   return (
     <><Header />
     <br />
+    <div className = "body">
     <AboutMe />
     <br />
     <Cv />
     <br />
     <Projects />
     <br />
-    <Footer /></>
+    <Footer />
+    </div>
+    </>
   );
 }
 
